@@ -1,4 +1,4 @@
-## Анализ оттока клиентов из банка.
+## Анализ оттока клиентов из банка
 
 ### Цель
 Компания, осуществляющая банковские услуги, заинтересована в сохранении своих клинтов. Была поставлена задача спрогнозировать: уйдёт ли клиент из банка в ближайшее время или нет. Для построения модели обучения банк предоставил исторические данные о своих клиентах и факт расторжения договора, если таковой был.<br>
@@ -15,7 +15,7 @@
 Обучили модель на основе случайного леса, были подобраны оптимальные параметры, уменьшена выборка, учтен дисбаланс классов. Благодаря этому удалось достичь параметра  ROC-AUC =0.868, что значительно превосходит случайное предсказание.
 
 ### Стек (используемые библиотеки)
-pandas, matplotlib, LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, StandardScaler, accuracy_score, precision_score, recall_score, f1_score, r2_score, roc_curve, roc_auc_score
+pandas, matplotlib, LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, StandardScaler, accuracy_score, precision_score, recall_score, f1_score, r2_score, roc_curve, roc_auc_score.
 
 ### Статус проекта
 Завершен.
